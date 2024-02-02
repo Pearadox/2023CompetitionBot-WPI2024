@@ -45,18 +45,18 @@ public final class Constants {
     public static final int LEFT_BACK_TURN_ID = 7;
     public static final int RIGHT_BACK_TURN_ID = 8;
     
-    public static final int LEFT_FRONT_CANCODER_ID = 11;
-    public static final int RIGHT_FRONT_CANCODER_ID = 12;
-    public static final int LEFT_BACK_CANCODER_ID = 13;
-    public static final int RIGHT_BACK_CANCODER_ID = 14;
+    public static final int LEFT_FRONT_CANCODER_ID = 14;
+    public static final int RIGHT_FRONT_CANCODER_ID = 13;
+    public static final int LEFT_BACK_CANCODER_ID = 12;
+    public static final int RIGHT_BACK_CANCODER_ID = 11;
 
     public static final int PIGEON_ID = 15;
 
     //Drivetrain characteristics
-    public static final double LEFT_FRONT_OFFSET = -0.415; //change
-    public static final double RIGHT_FRONT_OFFSET = -0.317; //change
-    public static final double LEFT_BACK_OFFSET = -0.389; //change
-    public static final double RIGHT_BACK_OFFSET = 0.235; //change
+    public static final double LEFT_FRONT_OFFSET = 0.277; 
+    public static final double RIGHT_FRONT_OFFSET = -0.44; 
+    public static final double LEFT_BACK_OFFSET = 0.454; 
+    public static final double RIGHT_BACK_OFFSET = 0.237; 
 
     public static final double WHEEL_DIAMETER = Units.inchesToMeters(4);
     public static final double DRIVE_MOTOR_GEAR_RATIO = 6.75;
